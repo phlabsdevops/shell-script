@@ -6,3 +6,4 @@ echo "Username is: $USERNAME" #should not print username and password in termina
 echo " Enter Password"
 read -s PASSWORD
 echo "Password is: $PASSWORD"
+echo "Username is: $USERNAME,Password is: $PASSWORD"
