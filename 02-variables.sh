@@ -1,4 +1,6 @@
 #!/bin/bash
 # this is for comment
-echo "Ramesh: Hi suresh"
-echo "Suresh: Hi ramesh"
+PER1=Ramesh
+PER2=Suresh
+echo "$PER1: Hi $PER2"
+echo "$PER2: Hi $PER1"
