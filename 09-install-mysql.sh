@@ -12,6 +12,7 @@ fi #indicating if condition end
 yum install mysql -y
 
 if [ $? -ne 0 ]
+then
 echo "ERROR: Installation of MySql fialed"
 exit 1
 else
