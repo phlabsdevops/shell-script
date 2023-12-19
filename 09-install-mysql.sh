@@ -9,7 +9,7 @@ else
 echo "You are root user"
 fi #indicating if condition end
 
-yum install mysql -y
+yum install mysqljdbfskj -y
 
 if [ $? -ne 0 ]
 then
