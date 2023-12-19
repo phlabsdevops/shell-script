@@ -18,3 +18,13 @@ exit 1
 else
 echo "Installation of MySql is success"
 fi
+
+yum install git -y
+
+if [ $? -ne 0 ]
+then
+echo "ERROR: Installation of MySql fialed"
+exit 1
+else
+echo "Installation of MySql is success"
+fi
