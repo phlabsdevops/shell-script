@@ -11,7 +11,7 @@ LOG_FILE="/tmp/$0-$TIMESTAMP.log"
 VALIDATE(){
 if [ $1 -ne 0 ]
 then
-echo " $R ERROR: $2 is fialed $N"
+echo -e " $R ERROR: $2 is fialed $N"
 exit 1
 else
 echo "$G $2 is success $N"
@@ -19,7 +19,7 @@ fi
 }
 if [ $ID -ne 0 ]
 then 
-echo "$R ERROR: Please run script with root access $N"
+echo -e "$R ERROR: Please run script with root access $N"
 exit 1 #give otherthan zero
 else
 echo "You are root user"
