@@ -27,7 +27,7 @@ fi
 for package in $@
 do 
 yum list installed $package 
-if[ $? -ne 0 ]
+if [ $? -ne 0 ]
 then 
 yum install $package -y
 VALLIDATE $? "Installation of $package is"
