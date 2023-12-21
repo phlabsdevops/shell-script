@@ -9,7 +9,7 @@ TIMESTAMP=$(date +%F-%H-%M-%S)
 LOG_FILE="/tmp/$0-$TIMESTAMP.log"
 echo "Script started executing"
 VALLIDATE(){
-    if[ $1 -ne 0 ]
+    if [ $1 -ne 0 ]
     then       
     echo -e "$R ERROR:$N $2 $R FAILED $N"
     exit 1
