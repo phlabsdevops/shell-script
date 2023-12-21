@@ -15,6 +15,7 @@ VALLIDATE(){
     exit 1
     else
     echo -e "$G $2 SUCCESS $N"
+    fi
 }
 if [ $ID -ne 0 ]
 then
