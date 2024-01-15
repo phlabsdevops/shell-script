@@ -19,4 +19,4 @@ do
 echo "USERNAME: $username"
 echo "USER ID: $user_id"
 echo "USER FULLNAME: $user_fullname"
-done <<< $FILE
+done < $FILE
