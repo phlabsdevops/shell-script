@@ -9,7 +9,7 @@ G="\e[32m"
 Y="\e[34m"
 N="\e[0m"
 
-if [ ! -d $SOURCE_DIR ]
+if [ ! -d $SOURCE_DIR ] # find /tmp/shellscript-logs directory exists or not
 then
 echo -e " $R Source Directory: $SOURCE_DIR does not exists. $N "
 fi
