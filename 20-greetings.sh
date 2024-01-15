@@ -14,6 +14,6 @@ while getopts ":n:w:h" opt; do
       case $opt in 
         n) NAME="$OPTARG" ;;
         w) WISHES="$OPTARG" ;;
-        h|*) usage; exit;;
+        h|*) USAGE; exit;;
      esac 
 done
